@@ -23,11 +23,16 @@ end
 
 def return_string_array(array)
   counter = 0 
-  new_array = []
+  # new_array = []
   
-  while array[counter] do
-    array[counter].to_s.push(new_array)
-    counter+=1 
-  end  
-  return new_array
+  #while array[counter] do
+  #  array[counter].to_s.push(new_array)
+  #  counter+=1 
+  #end
+  
+  while counter < array.length do
+    
+    
+  end
+
 end
